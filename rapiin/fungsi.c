@@ -1,7 +1,7 @@
 #include <string.h>
 #include <stdio.h>
 #include <ctype.h>
-#include "fungsi.h"
+#include "header.h"
 
 huruf kelompok[26];
 

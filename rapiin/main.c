@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include "fungsi.h"
+#include "header.h"
  
 int main() {
     int pilihan;
