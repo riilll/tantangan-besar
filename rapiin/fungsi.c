@@ -7,7 +7,7 @@ huruf kelompok[26];
 
 void bersihkanstring(char *kata) { //fungsi untuk membersihkan string dari karakter non-alfabet dan mengubah ke huruf kecil
     if (!kata) return; //jika pointer null, maka fungsi dihentikan
-    char temp[2000]; 
+    char temp[20000]; 
     int j = 0;
     int spasi = 0;
     
