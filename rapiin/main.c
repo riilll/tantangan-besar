@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include "header.h"
+#include "fungsi.h"
  
 int main() {
     int pilihan;
@@ -27,15 +27,11 @@ int main() {
         printf("Pilihan anda: ");
         if (scanf("%d", &pilihan) != 1) {
             printf("Input tidak valid! Masukkan angka.\n");
-
-            // bersihkan buffer sampai newline
+        // bersihkan buffer sampai newline
         int c;
         while ((c = getchar()) != '\n' && c != EOF);
         continue;
 }
-
-        //pilihan=inputAngka();
-
         if (pilihan == 1) {
             simpanFileBin(namaBiner);
             sudahAdaBiner = 1;
@@ -60,7 +56,6 @@ int main() {
             }
             bacaFileBin(namaBiner);
             sorting();
-            //tampilkanOutput();
             tampilkanNkata(n);
         }
         else if (pilihan == 3) {
