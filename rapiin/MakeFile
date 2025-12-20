@@ -1,0 +1,5 @@
+jalankan: main.c fungsi.c
+	gcc -Wall -o jalankan main.c fungsi.c
+
+clean:
+	rm -f jalankan
